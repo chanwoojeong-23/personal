@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="js/jquery-1.6.2.min.js"></script>
     <script type="text/javascript">
         $(document).ready(
@@ -44,26 +47,69 @@
         </div>
     </header>
      <!-- 타이틀영역 -->
-     <section>
-      <div id="title">
+     <section id="title">
         <div class="wrap">
             <p></p>
             <p></p>
             <ul>
-                
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="">이미지 없음</a></li>
+                <li><a href="">이미지 없음</a></li>
             </ul>
-        </div>
       </div>
      </section>
-     <!-- 내용영역 -->
-     <main>
-
-     </main>
+     <!-- 스킬영역 -->
+     <section id="skill">
+        <div class="wrap">
+            <img src="img/skill.png" alt="이미지 없음">
+        </div>
+     </section>
      <!-- 하단영역 -->
      <footer>
-
+        <div class="wrap">
+            <h2>LET'S GET IN TOUCH</h2>
+            <ul class="getin">
+                <li>
+                    <i class="fa fa-envelope-o"></i>
+                </li>
+                <p>
+                    <a href="mailto:akfkqldh@gmail.com">akfkqldh@gmail.com</a>
+                </p>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    <p>인천시 미추홀구 도화동</p>
+                </li>
+            </ul>
+        </div>
+        <div class="line">
+            <h2>DROP ME A LINE</h2>
+            <form id="form" class="form" method="post" action="contact.php">
+                <input type="text" name="name" placeholder="NAME" required="">
+                <input type="text" name="Phone" placeholder="PHONE">
+                <input type="text" name="email" placeholder="EMAIL" required="">
+                <textarea name="message" placeholder="MESSAGE" rows="8"></textarea>
+                <input id="submit" class="btn mt-button medium outline" type="submit" value="Send Message">
+            </form>
+        </div>
+        <div class="footerbottom">
+            <div class="container">
+                <div class="row">
+                    <div class="bottom">
+                        <p class="copyright">
+                            @ copyright 2022
+                            <a href="#">홈페이지 주소</a>
+                        </p>
+                    </div>
+                    <div class="sns">
+                        <ul class="social">
+                            <li><a class="페이스북이미지삽입" href="#"></a></li>
+                            <li><a class="트위터이미지삽입" href="#"></a></li>
+                            <li><a class="구글이미지삽입" href="#"></a></li>
+                            <li><a class="와이파이이미지삽입" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
      </footer>
 </body>
 </html>
